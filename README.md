@@ -5,7 +5,7 @@ The program manages multiple drivers and vehicles, assigns vehicles randomly to 
 
 ---
 
-## **Features**
+## Features
 
 - Manages vehicles with unique IDs, fuel types, tank capacities, and classifications.  
 - Assigns vehicles randomly to drivers (up to 2 vehicles per driver).  
@@ -15,51 +15,60 @@ The program manages multiple drivers and vehicles, assigns vehicles randomly to 
 
 ---
 
-## **Project Structure**
+## Project Structure
 
+```
 src/
-FuelStationSimulation/
-Vehicle.java # Vehicle class with tank, type, and classification
-FuelStation.java # FuelStation class handling fuel inventory and sales
-Driver.java # Driver class managing drivers and vehicle assignment
-Tester.java # Main tester for FuelStation operations
+  FuelStationSimulation/
+    Vehicle.java          # Vehicle class with tank, type, and classification
+    FuelStation.java      # FuelStation class handling fuel inventory and sales
+    Driver.java           # Driver class managing drivers and vehicle assignment
+    Tester.java           # Main tester for FuelStation operations
 resources/
-Vehicles.txt # Input file containing vehicle data
-.gitignore # Ensures compiled/IDE files are ignored
-README.md # This file
-
+  Vehicles.txt            # Input file containing vehicle data
+.gitignore               # Ensures compiled/IDE files are ignored
+README.md                # This file
+```
 
 ---
 
-## **How to Run**
+## How to Run
 
 1. Make sure you have **Java JDK 17+** installed.  
 2. Compile the Java files:  
 
 ```bash
 javac -d out src/FuelStationSimulation/*.java
-Run the main program:
+```
 
+3. Run the main program:  
+
+```bash
 java -cp out FuelStationSimulation.Driver
-The program will read Vehicles.txt, assign vehicles to drivers randomly, and print driver/vehicle information.
+```
 
-Technologies Used
-Java (OOP principles)
+4. The program will read `Vehicles.txt`, assign vehicles to drivers randomly, and print driver/vehicle information.  
 
-ArrayLists and data structures
+---
 
-Randomization and file I/O
+## Technologies Used
 
-Author
-Dillon Ganpat
+- Java (OOP principles)  
+- ArrayLists and data structures  
+- Randomization and file I/O  
 
-Email: dillonganpat@gmail.com
+---
 
-GitHub: https://github.com/dillonganpat
+## Author
 
-LinkedIn: https://www.linkedin.com/in/dillonganpat/
+**Dillon Ganpat**  
+- Email: dillonganpat@gmail.com  
+- GitHub: [https://github.com/dillonganpat](https://github.com/dillonganpat)  
+- LinkedIn: [https://www.linkedin.com/in/dillonganpat/](https://www.linkedin.com/in/dillonganpat/)
 
-Notes
-Make sure Vehicles.txt is in the resources/ folder so the program can read it correctly.
+---
 
-This project is suitable as a learning exercise for object-oriented programming, file handling, and simulation in Java.
+## Notes
+
+- Make sure `Vehicles.txt` is in the `resources/` folder so the program can read it correctly.  
+- This project demonstrates **object-oriented programming, file handling, and simulation in Java**.
