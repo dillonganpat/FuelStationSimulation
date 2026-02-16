@@ -1,0 +1,10 @@
+50,Regular,Toyota,Corolla,2018,3
+47,Regular,Honda,Civic,2020,3
+80,Diesel,Ford,Ranger,2017,4
+60,Regular,Nissan,X-Trail,2019,3
+50,Regular,Hyundai,Elantra,2021,3
+62,Regular,Kia,Sportage,2016,3
+91,Diesel,Chevrolet,Silverado,2015,4
+59,Regular,BMW,3 Series,2022,3
+66,Regular,Mercedes-Benz,C-Class,2023,3
+50,Regular,Volkswagen,Golf,2014,3
